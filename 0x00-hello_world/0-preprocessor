@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E $CLIFE -o
+gcc -E $CLIFE -o c
