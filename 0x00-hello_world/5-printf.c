@@ -1,5 +1,5 @@
 #include <stdio.h>
- /**
+/**
  * main - coment
  * Return: value 0
  */
