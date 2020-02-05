@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * main - function
- * return: value 0
+ * Return: size
  */
 int main(void)
 {
