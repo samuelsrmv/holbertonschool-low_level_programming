@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * man - coment
+ * main - coment
  * Return: value 0
  */
 int main(void)
