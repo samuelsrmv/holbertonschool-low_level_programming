@@ -1,8 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* man - coment */
-/* Return: value 0 */
+/**
+ * man - coment
+ * Return: value 0
+ */
 int main(void)
 {
 int n;
