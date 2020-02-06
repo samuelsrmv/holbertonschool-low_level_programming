@@ -5,15 +5,23 @@
  */
 int main(void)
 {
-char c, u;
-for (c = 'a'; c <= 'z'; c++);
+char c = 'a';
+char u = 'A';
+int cont, d;
+cont = 0;
+d = 0;
+while (cont != 26)
 {
-putchar(c);
+putchar (c);
+c++;
+cont++;
 }
-for (u = 'A'; u <= 'Z'; u++);
+while (d != 26)
 {
-putchar(u);
+putchar (u);
+u++;
+d++;
 }
-putchar('\n');
+putchar ('\n');
 return (0);
 }
