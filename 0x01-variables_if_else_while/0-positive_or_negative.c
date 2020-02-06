@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* coments */
-/* betty style doc for function main goes */
+/* man - coment */
+/* Return: value 0 */
 int main(void)
 {
 int n;
