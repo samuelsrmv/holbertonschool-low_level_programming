@@ -5,14 +5,14 @@
  */
 int main(void)
 {
-char c;
+char c, u;
 for (c = 'a'; c <= 'z'; c++);
 {
 putchar(c);
 }
-for (c= 'A'; c <= 'Z'; c++);
+for (u = 'A'; u <= 'Z'; u++);
 {
-putchar(c);
+putchar(u);
 }
 putchar('\n');
 return (0);
