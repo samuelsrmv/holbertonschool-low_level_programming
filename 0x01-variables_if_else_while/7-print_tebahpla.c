@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - coment
- * Retorn: value
+ * Return: value 0
  */
 int main(void)
 {
