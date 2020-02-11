@@ -1,12 +1,18 @@
 #include "holberton.h"
 /**
  * void jack_bauer - print jack_bauer
- * @n: fuction
+ * @n1: fuction
+ * @n2: fuction
+ * @n3: fuction
+ * @n4: fuction
  * Return: value 0
  */
 void jack_bauer(void)
 {
-int n1, n2, n, n4;
+int n1;
+int n2;
+int n3;
+int n4;
 for (n1 = 0; n1 < 3; n1++)
 {
 for (n2 = 0; n2 < 9; n2++)
