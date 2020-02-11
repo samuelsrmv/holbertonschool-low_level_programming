@@ -1,7 +1,7 @@
-#include "holberton.h"
+x#include "holberton.h"
 #include <stdio.h>
 /**
- * main - coment
+ * print_alphabet - coment
  * Return: value 0
  */
 void print_alphabet(void)
