@@ -1,7 +1,6 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
- * main - coment
+ * int _islower - coment
  * Return: value 0
  */
 int _islower(int c)
