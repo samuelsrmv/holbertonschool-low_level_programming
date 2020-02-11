@@ -1,4 +1,8 @@
 #include "holberton.h"
+/**
+ * main - coment
+ * Return: value 0
+ */
 int main(void)
 {
 _putchar('H');
