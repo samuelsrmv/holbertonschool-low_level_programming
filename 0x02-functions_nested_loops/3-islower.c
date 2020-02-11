@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * int _islower - printf islower
+ * _islower - printf islower
  * @c: fuction
  * Return: value 0
  */
