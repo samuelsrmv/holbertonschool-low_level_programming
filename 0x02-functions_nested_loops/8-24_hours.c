@@ -1,10 +1,6 @@
 #include "holberton.h"
 /**
- * void jack_bauer - print jack_bauer
- * @n1: fuction
- * @n2: fuction
- * @n3: fuction
- * @n4: fuction
+ * jack_bauer - print jack_bauer
  * Return: value 0
  */
 void jack_bauer(void)
