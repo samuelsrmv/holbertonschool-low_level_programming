@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * jack_bauer - print jack_bauer
+ * jack_bauer - fuction
  * Return: value 0
  */
 void jack_bauer(void)
@@ -8,7 +8,7 @@ void jack_bauer(void)
 int n1, n2, n3, n4;
 for (n1 = 0; n1 < 3; n1++)
 {
-for (n2 = 0; n2 < 9; n2++)
+for (n2 = 0; n2 <= 9; n2++)
 {
 for (n3 = 0; n3 < 6; n3++)
 {
