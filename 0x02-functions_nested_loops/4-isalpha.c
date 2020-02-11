@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * main - coment
+ * int _isalpha - print is alphabet
  * Return: value 0
  */
 int _isalpha(int c)
