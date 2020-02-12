@@ -1,12 +1,11 @@
 #include "holberton.h"
 /**
- * print_times_table - function prints
+ * times_table - function prints
  * Return: void
- * @n: return something
  */
-void print_times_table(int n)
+void times_table(void)
 {
-int i, j, prod;
+intn n, i, j, prod;
 prod = 1;
 if (!(n > 15))
 {
