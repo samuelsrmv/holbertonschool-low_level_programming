@@ -1,5 +1,11 @@
-#ifndef HOLBERTON
-#define HOLBERTON
-void reset_to_98(int *n);
-void swap_int(int *a, int *b);
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
+
+#include <stdio.h>
+
+void positive_or_negative(int i);
+int largest_number(int a, int b, int c);
+void print_remaining_days(int month, int day, int year);
+int _putchar(char c);
+void _puts(char *str);
 #endif
