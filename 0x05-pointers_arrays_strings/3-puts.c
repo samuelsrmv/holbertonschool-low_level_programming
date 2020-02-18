@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * reset_to_98 - pointers
- * @n: pointers
+ * _puts - pointers
+ * @str: pointers2
  * Return: void
  */
 void _puts(char *str)
