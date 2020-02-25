@@ -5,7 +5,6 @@
  * @accept: pointers
  * Return: value
  */
-{
 unsigned int _strspn(char *s, char *accept)
 {
 int k = 0, m = 0;
