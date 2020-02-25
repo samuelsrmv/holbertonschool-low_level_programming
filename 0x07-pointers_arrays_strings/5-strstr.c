@@ -1,13 +1,13 @@
 #include "holberton.h"
 /**
- * *_strspn - pointer
- * @s: pointers
- * @accept: pointers
+ * _strstr - pointer
+ * @haystack: pointers
+ * @needle: pointers
  * Return: value
  */
 char *_strstr(char *haystack, char *needle)
 {
-  int i = 0, j = 0, a = 0;
+int i = 0, j = 0, a = 0;
 while (haystack[a] != '\0')
 {
 i = a;
