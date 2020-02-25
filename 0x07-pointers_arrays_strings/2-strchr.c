@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * *_strchr - pointer
+ * _strchr - pointer
  * @s: pointers
  * @c: pointer
  * Return: value
