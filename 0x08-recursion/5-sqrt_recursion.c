@@ -11,12 +11,14 @@ if (n < 0)
 return (-1);
 else
 return (_funcAux(n, 1));
+}
 /**
  * _funcAux - Function
  * @n2: variable
  * @x2: variable
  * Return: value
  */
+
 int _funcAux(int n2, int x2)
 {
 if (x2 > n2)
