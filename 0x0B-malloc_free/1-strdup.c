@@ -5,7 +5,7 @@
  * @str: pointers
  * Return: value
  */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 int i;
 char *a;
@@ -28,4 +28,3 @@ a[x] = str[x];
 }
 return (a);
 }
-
