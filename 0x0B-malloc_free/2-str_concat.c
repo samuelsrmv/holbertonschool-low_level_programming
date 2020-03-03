@@ -13,9 +13,17 @@ char *a;
 int x;
 int j;
 int e;
-if (s1 == NULL)
+if (s1 == NULL && s2 == NULL)
 {
 return (NULL);
+}
+if (s1 == '\0')
+{
+return (" ");
+}
+if (s2 == '\0')
+{
+return (" ");
 }
 for (i = 0; s1[i] != '\0'; i++)
 {
