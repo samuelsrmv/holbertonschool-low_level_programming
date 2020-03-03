@@ -19,11 +19,11 @@ return (NULL);
 }
 if (s1 == '\0')
 {
-return (" ");
+return ("");
 }
 if (s2 == '\0')
 {
-return (" ");
+return ("");
 }
 for (i = 0; s1[i] != '\0'; i++)
 {
