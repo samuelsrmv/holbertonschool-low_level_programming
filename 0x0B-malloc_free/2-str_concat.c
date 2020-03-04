@@ -13,17 +13,14 @@ char *a;
 int x;
 int j;
 int e;
-if (s1 == NULL || s2 == NULL)
-{
-return (NULL);
-}
+
 if (s1 == NULL)
 {
-return ("");
+s1 = "";
 }
 if (s2 == NULL)
 {
-return ("");
+s2 = "";
 }
 for (i = 0; s1[i] != '\0'; i++)
 {
@@ -31,7 +28,7 @@ for (i = 0; s1[i] != '\0'; i++)
 for (x = 0; s2[x] != '\0'; x++)
 {
 }
-a = malloc((i + x + 1) * sizeof(char));
+a = malloc((i + x + 1) * sizeof(char *));
 if (a == NULL)
 {
 return (NULL);
