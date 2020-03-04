@@ -17,11 +17,11 @@ if (s1 == NULL || s2 == NULL)
 {
 return (NULL);
 }
-if (s1 == '\0')
+if (s1 == NULL)
 {
 return ("");
 }
-if (s2 == '\0')
+if (s2 == NULL)
 {
 return ("");
 }
