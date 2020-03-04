@@ -32,6 +32,10 @@ for (x = 0; s2[x] != '\0'; x++)
 {
 }
 a = malloc(i + x * sizeof(char) + 1);
+if (a == NULL)
+{
+return (NULL);
+}
 for (j = 0; j < i; j++)
 {
 a[j] = s1[j];
