@@ -16,8 +16,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	unsigned int i;
 
 		va_start(list, n);
-			
-	
 			for (i = 0; i < n; i++)
 			if (separator != NULL)
 			{
@@ -35,5 +33,5 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 				printf("%d", va_arg(list, int));
 			}
 		printf("\n");
-		va_end(list);	
+		va_end(list);
 }
