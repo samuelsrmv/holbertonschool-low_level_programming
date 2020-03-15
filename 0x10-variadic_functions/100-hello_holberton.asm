@@ -30,20 +30,20 @@ void print_all(const char * const format, ...)
 			case 's':
 				p = va_arg(strList, char*) ;
 				if (p != NULL)
-	{
-	printf("%s", p) ;
-	break;
-	}
-	printf("(nil)");
-	break;
-default:
-	flags = 0 ;
-		}
-	if (format[x + 1] != '\0' && flags)
-	printf(", ");
-	x++;
-	flags++;
+	                        {
+	                           printf("%s", p);
+	                           break;
+	                        }
+	                           printf("(nil)");
+	                           break;
+                                default:
+ 	                           flags = 0 ;
+	       }
+	                 if (format[x + 1] != '\0' && flags)
+	                 printf(", ");
+	                 x++;
+	                 flags++;
 	}
 	printf("\n");
 	va_end(strList);
-		}
+}
