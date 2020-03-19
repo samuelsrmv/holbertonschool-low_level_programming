@@ -9,7 +9,7 @@ size_t list_len(const list_t *h)
 {
 	int x;
 
-	for (x = 1; h->next != NULL; x++)
+	for (x = 0; h != NULL; x++)
 	{
 		h = h->next;
 	}
