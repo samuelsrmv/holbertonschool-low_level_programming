@@ -1,5 +1,10 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
+
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
@@ -15,5 +20,7 @@ typedef struct list_s
 	unsigned int len;
 	struct list_s *next;
 } list_t;
+
+int _putchar(char c);
 size_t print_list(const list_t *h);
 #endif
