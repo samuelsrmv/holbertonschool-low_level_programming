@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * binary_to_uint - binary_to_uint
+ * set_bit - set_bit
  * @n: pointers
  * @index: variable
  * Return: Value
