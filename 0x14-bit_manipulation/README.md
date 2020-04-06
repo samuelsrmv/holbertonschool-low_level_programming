@@ -1,6 +1,6 @@
 <!-- Headings -->
 
-# The Shell Project - The Simple Shell
+# The Simple Shell
 
 ## Synopsis
 This is a simple implementation of a UNIX command line interpreter.
@@ -20,10 +20,10 @@ interprets the lines and executes them if the line is a valid command.
 
 ```
 To start the program, run:
-./shell
+```./shell```
 
 To exit the program, run:
-shell $ exit
+```shell $ exit```
 
 The simple shell supports most shell commands, such as cat, pwd, ls and more.
 
