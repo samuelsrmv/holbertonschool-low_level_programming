@@ -25,7 +25,6 @@ To start the program, run:
 To exit the program, run:
 ```shell $ exit```
 
-The simple shell supports most shell commands, such as cat, pwd, ls and more.
 
 <!-- Headings -->
 ## Return Value
