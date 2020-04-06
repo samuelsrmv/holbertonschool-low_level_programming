@@ -1,54 +1,36 @@
 <!-- Headings -->
 
-# _printf
+# The Shell Project - The Simple Shell
 
 ## Synopsis
-This is the printf function that formats and prints data
+This is a simple implementation of a UNIX command line interpreter.
 
 ## Description
-The _printf function returns the number of characters printed, or a negative
 
-<!-- UL -->
-The available convertion specifiers are:
-
-* %c: Prints a single character.
-* %s: Prints a string of characters.
-* %d: Prints integers.
-* %i: Prints integers.
-* %b: Prints the binary representation of an unsigned decimal.
-* %u: Prints unsigned integers
-* %x: Prints the hexadecial representation of an unsigned decimal in lowercase
-letters
-* %X:Prints the hexadecial representation of an unsigned decimal in uppercase
-letters
-* %r: Prints a reversed string
-* %R: Prints the Rot13 interpretation of a string
-
-<!-- Headings -->
+The Simple Shell interpret and execute command line arguments read from
+standard input. Read line by line from a file or the terminal line. Then it
+interprets the lines and executes them if the line is a valid command.
 
 ## Usage
 
-* include the "holberton.h" header file on the functions using the _printf
-* Compile your code with:
+* Compilation:
 
 ```
-  gcc -Wall -Werror -Wextra -pedantic *.c
+  gcc -Wall -Werror -Wextra -pedantic *.c -o shell
 
 ```
+To start the program, run:
+./shell
+
+To exit the program, run:
+shell $ exit
+
+The simple shell supports most shell commands, such as cat, pwd, ls and more.
 
 <!-- Headings -->
-## Example
+## Return Value
+Olaf shell will exit with status 0 unless status
 
 ```
-#include "holberton.h"
-#include <stdio.h>
-/**
- * main - Entry point
- *
- * Return: Always 0
- */
-
-int main()
-{
-        int testInteger = 5;
--UU-:----F1  README.md      Top L1    Git-samu_branch
+holberton
+```
