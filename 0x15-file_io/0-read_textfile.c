@@ -8,15 +8,15 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	ssize_t nr_bytes, fdwrite;
-	int d;
+	int fd;
 	char *s;
 
 	if (filename == NULL)
 	{
 		return (0);
 	}
-	d = open(filename, O_RDONLY);
-	if (d == -1)
+	fd = open(filename, O_RDONLY);
+	if (fd == -1)
 	{
 		return (0);
 	}
@@ -36,7 +36,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 
-	close(d);
+	close(fd);
 	return (nr_bytes);
 
 }
