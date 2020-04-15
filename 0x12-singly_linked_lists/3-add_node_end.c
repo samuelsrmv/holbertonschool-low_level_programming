@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * add_node_end - function
- * @head: pointr 
+ * @head: pointr
  * @str: pointer
  * Return: list
  */
