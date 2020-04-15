@@ -1,12 +1,25 @@
 #include "lists.h"
 /**
- * print_list - print_list
- * @h: pinters
+ * free_list - free_list
+ * @head: pointer
  * Return: Value
  * Description: Fuction
  */
 void free_list(list_t *head)
 {
-	free(*head);
-	free(list_t);
+	list_t *tmp;
+
+	if (head == NULL)
+	{
+		return;
+	}
+	while (head->next != NULL)
+	{
+		tmp = head->next;
+		free(head->str);
+		free(head);
+		head = tmp;
+	}
+	free(head->str);
+	free(head);
 }
