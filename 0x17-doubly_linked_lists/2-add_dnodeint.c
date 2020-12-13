@@ -12,7 +12,7 @@ dlistint_t *node_samu;
 node_samu = malloc(sizeof(dlistint_t));
 if (node_samu == NULL)
 {
-    return (NULL);
+return (NULL);
 }
 node_samu->n = n;
 node_samu->prev = NULL;
