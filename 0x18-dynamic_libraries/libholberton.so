@@ -1,0 +1,394 @@
+!<arch>
+0-isupper.o/    0           0     0     644     179       `
+#include "holberton.h"
+/**
+ * _isupper - printf islower
+ * @c: fuction
+ * Return: value 0
+ */
+int _isupper(int c)
+{
+if (c >= 65 && c <= 90)
+{
+return (1);
+}
+else
+{
+return (0);
+}
+}
+
+0-memset.o/     0           0     0     644     251       `
+#include "holberton.h"
+/**
+ * *_memset - pointer
+ * @n: pointers
+ * @s: pointer
+ * @n: pointers
+ * @b: pointers
+ * Return: value
+ */
+char *_memset(char *s, char b, unsigned int n)
+{
+unsigned int c;
+for (c = 0; c < n; c++)
+{
+s[c] = b;
+}
+return (s);
+}
+
+
+0-strcat.o/     0           0     0     644     311       `
+#include "holberton.h"
+/**
+ * _strcat - pointers
+ * @dest: pointers
+ * @src: pointers
+ * Return: value
+ */
+char *_strcat(char *dest, char *src)
+{
+int i;
+int c;
+int j;
+for (i = 0; dest[i] != '\0'; i++)
+;
+for (c = 0; src[c] != '\0'; c++)
+;
+for (j = i; j < (i + c); j++)
+{
+dest[j] = src[j - i];
+}
+return (dest);
+}
+
+1-isdigit.o/    0           0     0     644     179       `
+#include "holberton.h"
+/**
+ * _isdigit - printf isdigit
+ * @c: fuction
+ * Return: Value 0
+ */
+int _isdigit(int c)
+{
+if (c >= 48 && c <= 57)
+{
+return (1);
+}
+else
+{
+return (0);
+}
+}
+
+1-memcpy.o/     0           0     0     644     256       `
+#include "holberton.h"
+/**
+ * _memcpy - pointers
+ * @dest: pointers
+ * @src: pointers
+ * @n: pointers
+ * Return: void
+ */
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+unsigned int c;
+for (c = 0; c < n; c++)
+{
+dest[c] = src[c];
+}
+return (dest);
+}
+1-strncat.o/    0           0     0     644     306       `
+#include "holberton.h"
+/**
+ * _strncat - pointers
+ * @dest: pointers
+ * @src: pointers
+ * @n: pointers
+ * Return: value
+ */
+char *_strncat(char *dest, char *src, int n)
+{
+int i;
+int j;
+for (i = 0; dest[i] != '\0'; i++)
+;
+for (j = 0; j < n && src[j] != '\0'; j++)
+{
+dest[j + i] = src[j];
+}
+return (dest);
+}
+2-strchr.o/     0           0     0     644     207       `
+#include "holberton.h"
+/**
+ * _strchr - pointer
+ * @s: pointers
+ * @c: pointer
+ * Return: value
+ */
+char *_strchr(char *s, char c)
+{
+while (*s != '\0')
+{
+if (*s == c)
+{
+return (s);
+}
+s++;
+}
+return ('\0');
+}
+
+2-strlen.o/     0           0     0     644     167       `
+#include "holberton.h"
+/**
+ * _strlen - pointers
+ * @s: pointers
+ * Return: value 0
+ */
+int _strlen(char *s)
+{
+int i;
+for (i = 0; s[i] != '\0'; i++)
+{
+}
+return (i);
+}
+
+2-strncpy.o/    0           0     0     644     337       `
+#include "holberton.h"
+/**
+ * _strncpy - pointers
+ * @dest: pointers
+ * @src: pointers
+ * @n: pointers
+ * Return: value
+ */
+char *_strncpy(char *dest, char *src, int n)
+{
+int i;
+int c;
+for (i = 0; dest[i] != '\0'; i++)
+;
+for (c = 0; c < n && src[c] != '\0'; c++)
+{
+dest[c] = src[c];
+}
+for (; c < n; c++)
+dest[c] = '\0';
+return (dest);
+}
+
+3-islower.o/    0           0     0     644     180       `
+#include "holberton.h"
+/**
+ * _islower - printf islower
+ * @c: fuction
+ * Return: value 0
+ */
+int _islower(int c)
+{
+if (c >= 97 && c <= 122)
+{
+return (1);
+}
+else
+{
+return (0);
+}
+}
+3-puts.o/       0           0     0     644     190       `
+#include "holberton.h"
+/**
+ * _puts - pointers
+ * @str: pointers2
+ * Return: void
+ */
+void _puts(char *str)
+{
+int c;
+for (c = 0; str[c] != '\0'; c++)
+{
+_putchar(str[c]);
+}
+_putchar('\n');
+}
+3-strcmp.o/     0           0     0     644     287       `
+#include "holberton.h"
+/**
+ * _strcmp - pointers
+ * @s1: pointers
+ * @s2: pointers
+ * Return: value
+ */
+int _strcmp(char *s1, char *s2)
+{
+int i;
+int e;
+i = 0;
+while (s1[i] != '\0' && s2[i] != '\0')
+{
+if (s1[i] == s2[i])
+{
+e = 0;
+}
+else
+{
+e = s1[i] - s2[i];
+break;
+}
+i++;
+}
+return (e);
+}
+
+3-strspn.o/     0           0     0     644     340       `
+#include "holberton.h"
+/**
+ * *_strspn - pointer
+ * @s: pointers
+ * @accept: pointers
+ * Return: value
+ */
+unsigned int _strspn(char *s, char *accept)
+{
+int k = 0, m = 0;
+int c = 0, b = 0;
+while (s[k] != '\0')
+{
+m = 0;
+b = 1;
+while (accept[m] != '\0')
+{
+if (s[k] == accept[m])
+{
+c++;
+b = 0;
+}
+m++;
+}
+if (b == 1)
+break;
+k++;
+}
+return (c);
+}
+4-isalpha.o/    0           0     0     644     232       `
+#include "holberton.h"
+#include <stdio.h>
+/**
+ * _isalpha - print is alphabet
+ * @c: fuction
+ * Return: value 0
+ */
+int _isalpha(int c)
+{
+if (((c >= 97 && c <= 122)) || ((c >= 65 && c <= 90)))
+{
+return (1);
+}
+else
+{
+return (0);
+}
+}
+4-strpbrk.o/    0           0     0     644     349       `
+#include "holberton.h"
+/**
+ * _strpbrk - pointers
+ * @s: pointers
+ * @accept: pointers
+ * Return: value
+ */
+char *_strpbrk(char *s, char *accept)
+{
+int k = 0, m = 0;
+int b = 0, e = 0;
+while (s[k] != '\0')
+{
+m = 0;
+b = 1;
+while (accept[m] != '\0')
+{
+if (s[k] == accept[m])
+{
+b = 0;
+e = k;
+}
+m++;
+if (b == 0)
+return (&s[e]);
+}
+k++;
+}
+return ('\0');
+}
+
+5-strstr.o/     0           0     0     644     389       `
+#include "holberton.h"
+/**
+ * _strstr - pointer
+ * @haystack: pointers
+ * @needle: pointers
+ * Return: value
+ */
+char *_strstr(char *haystack, char *needle)
+{
+int i = 0, j = 0, a = 0;
+while (haystack[a] != '\0')
+{
+i = a;
+j = 0;
+while (haystack[i] != '\0' && needle[j] != '\0' && haystack[i] == needle[j])
+{
+i++;
+j++;
+}
+if (needle[j] == '\0')
+return (haystack + a);
+a++;
+}
+return ('\0');
+}
+
+6-abs.o/        0           0     0     644     199       `
+#include "holberton.h"
+/**
+ * _abs - print abs
+ * @n: fuction
+ * Return: value 0
+ */
+int _abs(int n)
+{
+if (n < 0)
+{
+n = n * (-1);
+return (n);
+}
+else if (n > 0)
+{
+return (n);
+}
+else
+{
+return (0);
+}
+}
+
+_putchar.o/     0           0     0     644     200       `
+#include <unistd.h>
+
+/**
+ * _putchar - writes the character c
+ * @c: Character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned
+ */
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
