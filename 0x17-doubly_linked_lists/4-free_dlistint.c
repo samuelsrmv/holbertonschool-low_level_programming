@@ -10,7 +10,7 @@ dlistint_t *temp_node = NULL;
 while (head != NULL)
 {
 temp_node = head->next;
-head = temp_node;
 free(head);
+head = temp_node;
 }
 }
