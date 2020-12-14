@@ -13,7 +13,7 @@ dlistint_t *temp_samu = NULL;
 node_samu = malloc(sizeof(dlistint_t));
 if (node_samu == NULL)
 {
-return (NULL); 
+return (NULL);
 }
 node_samu->n = n;
 node_samu->prev = NULL;
@@ -22,7 +22,7 @@ temp_samu = *head;
 node_samu->next = temp_samu;
 if (temp_samu != NULL)
 {
-    temp_samu->prev = *head;
+temp_samu->prev = *head;
 }
 return (node_samu);
 }
