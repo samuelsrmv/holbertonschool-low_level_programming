@@ -1,34 +1,40 @@
-#ifndef LISTS_H
-#define LISTS_H
-
-#include <stdio.h>
-#include <stdlib.h>
+#include "lists.h"
 
 /**
- * struct dlistint_s - doubly linked list
- * @n: integer
- * @prev: points to the previous node
- * @next: points to the next node
- *
- * Description: doubly linked list node structure
- * for Holberton project
+ * delete_node - deletes a node from a linked list
+ * @head: head of the list
+ * @del_node: node to be deleted
  */
-typedef struct dlistint_s
+void delete_node(dlistint_t **head, dlistint_t *del_node)
 {
-    int n;
-    struct dlistint_s *prev;
-    struct dlistint_s *next;
-} dlistint_t;
+	if (*head == del_node)
+		*head = del_node->next;
+	if (del_node->next != NULL)
+		del_node->next->prev = del_node->prev;
+	if (del_node->prev != NULL)
+		del_node->prev->next = del_node->next;
+	free(del_node);
+}
 
-size_t print_dlistint(const dlistint_t *h);
-size_t dlistint_len(const dlistint_t *h);
-dlistint_t *add_dnodeint(dlistint_t **head, const int n);
-dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
-void free_dlistint(dlistint_t *head);
-dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
-int sum_dlistint(dlistint_t *head);
-dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
-int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
-void delete_node(dlistint_t **head, dlistint_t *del_node);
+/**
+ * delete_dnodeint_at_index - deletes a node at a given index
+ * @head: head of the linked list
+ * @index: index of node to delete
+ * Return: returns 1 on success, -1 on failure
+ */
+int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
+{
+	unsigned int count;
+	dlistint_t *node_tmp;
 
-#endif /* LISTS_H */
+	if (*head == NULL)
+		return (-1);
+
+	for (count = 0, node_tmp = *head; node_tmp != NULL && count < index; count++)
+		node_tmp = node_tmp->next;
+	if (node_tmp == NULL)
+		return (-1);
+
+	delete_node(head, node_tmp);
+	return (1);
+}
