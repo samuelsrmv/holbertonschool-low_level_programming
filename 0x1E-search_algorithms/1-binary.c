@@ -23,7 +23,7 @@ int binary_search(int *array, size_t size, int value)
 			{
 				printf("%d, ", array[i]);
 			}
-			printf("%d", der);
+			printf("%d", array[der]);
 			printf("\n");
 			med = (izq + der) / 2;
 			if (value == array[med])
