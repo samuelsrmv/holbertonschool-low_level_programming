@@ -9,27 +9,31 @@
  */
 int binary_search(int *array, size_t size, int value)
 {
-	int izq, der, med, i;
-
-	izq = 0;
-	der = size - 1;
-
-	while (izq <= der)
+	if (array != NULL)
 	{
-		printf("Searching in array: ");
-		for (i = izq; array[i] < der; i++)
+		int izq, der, med, i;
+
+		izq = 0;
+		der = size - 1;
+
+		while (izq <= der)
 		{
-			printf("%d, ", array[i]);
+			printf("Searching in array: ");
+			for (i = izq; array[i] < der; i++)
+			{
+				printf("%d, ", array[i]);
+			}
+			printf("%d", der);
+			printf("\n");
+			med = (izq + der) / 2;
+			if (value == array[med])
+				return (med);
+			else if (value < array[med])
+				der = med - 1;
+			else
+				izq = med + 1;
 		}
-		printf("%d", der);
-		printf("\n");
-		med = (izq + der) / 2;
-		if (value == array[med])
-			return (med);
-		else if (value < array[med])
-			der = med - 1;
-		else
-			izq = med + 1;
+		return (-1);
 	}
 	return (-1);
 }
