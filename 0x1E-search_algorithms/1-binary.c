@@ -18,6 +18,7 @@ int binary_search(int *array, size_t size, int value)
 
 		while (izq <= der)
 		{
+			med = (izq + der) / 2;
 			printf("Searching in array: ");
 			for (i = izq; array[i] < der; i++)
 			{
@@ -25,7 +26,6 @@ int binary_search(int *array, size_t size, int value)
 			}
 			printf("%d", array[der]);
 			printf("\n");
-			med = (izq + der) / 2;
 			if (value == array[med])
 				return (med);
 			else if (value < array[med])
