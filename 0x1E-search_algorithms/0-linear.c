@@ -1,4 +1,5 @@
 #include "search_algos.h"
+
 /**
  * linear_search - linear_search
  * @array: pointers
