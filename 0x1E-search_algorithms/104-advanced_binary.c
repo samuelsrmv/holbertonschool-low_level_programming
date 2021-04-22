@@ -47,10 +47,10 @@ int recursi_advanced_binary(int *array, size_t izq, size_t der, int value)
 		}
 		printf("%d", array[der]);
 		printf("\n");
-		if ((value == array[med]) && (value != array[med - 1]))
+		if ((value == array[med]) && ((izq == med) || (value != array[med - 1])))
 			return (med);
 		else if (value <= array[med])
-			der = med - 1;
+			der = med;
 		else
 			izq = med + 1;
 		return (recursi_advanced_binary(array, izq, der, value));
