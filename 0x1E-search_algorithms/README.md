@@ -1,6 +1,6 @@
 # 0x1E. C - Search Algorithms
 
-## Resources:books:
+## Resources:books::octocat:
 Read or watch:
 * [Search algorithm](https://intranet.hbtn.io/rltoken/ntNFhA9urmBxZfcn8gjsqw)
 * [Space complexity (1)](https://intranet.hbtn.io/rltoken/pPScxisIQ0eOPBPXkjcEmg)
