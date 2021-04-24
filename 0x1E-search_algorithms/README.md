@@ -1,12 +1,12 @@
 # 0x1E. C - Search Algorithms
 
-## Resources:books::bulb:
+## Resources :books::bulb:
 Read or watch:
 * [Search algorithm](https://intranet.hbtn.io/rltoken/ntNFhA9urmBxZfcn8gjsqw)
 * [Space complexity (1)](https://intranet.hbtn.io/rltoken/pPScxisIQ0eOPBPXkjcEmg)
 
 ---
-## Learning Objectives:man_technologist:
+## Learning Objectives :man_technologist:
 What you should learn from this project:
 
 * What is a search algorithm
@@ -86,4 +86,4 @@ This change does not come without consequences. Indeed, the space complexity of 
 ---
 
 ## Author
-* **Samuel Martinez** - [samuelsrmv:octocat:](https://github.com/samuelsrmv)
+* **Samuel Martinez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
