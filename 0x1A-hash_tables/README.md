@@ -1,13 +1,13 @@
 # 0x1A. C - Hash tables
 
-## Resources:books:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [What is a HashTable Data Structure - Introduction to Hash Tables , Part 0](https://intranet.hbtn.io/rltoken/uodWZz-2jyHReOeToaLNdQ)
 * [Hash function](https://intranet.hbtn.io/rltoken/YiFi_oMjd9cZ4VepsS2RKQ)
 * [Hash table](https://intranet.hbtn.io/rltoken/Kswyyb1f2JY3dn-3TEckUQ)
 
 ---
-## Learning Objectives:bulb:
+## Learning Objectives :man_technologist:
 What you should learn from this project:
 
 * What is a hash function
@@ -25,29 +25,6 @@ What you should learn from this project:
 
 ### [1. djb2](./1-djb2.c)
 * Write a hash function implementing the djb2 algorithm.
-julien@ubuntu:~/0x1A. Hash tables$ cat 1-main.c 
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include "hash_tables.h"
-
-/**
- * main - check the code for Holberton School students.
- *
- * Return: Always EXIT_SUCCESS.
- */
-int main(void)
-{
-    char *s;
-
-    s = "cisfun";
-    printf("%lu\n", hash_djb2((unsigned char *)s));
-    s = "Don't forget to tweet today";
-    printf("%lu\n", hash_djb2((unsigned char *)s));
-    s = "98";
-    printf("%lu\n", hash_djb2((unsigned char *)s));
-    return (EXIT_SUCCESS);
-}
 
 
 ### [2. key -> index](./2-key_index.c)
@@ -69,11 +46,7 @@ int main(void)
 ### [6. >>> del ht](./6-hash_table_delete.c)
 * Write a function that deletes a hash table.
 
-
-### [7. $ht['Betty'] = 'Holberton'](./100-sorted_hash_table.c)
-* In PHP, hash tables are ordered. Wait… WAT? How is this even possible?
-
 ---
 
-## Author
-* **Samuel Martinez** - [samuelsrmv](https://github.com/samuelsrmv)
+## Author :writing_hand:
+* **Samuel Martinez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
