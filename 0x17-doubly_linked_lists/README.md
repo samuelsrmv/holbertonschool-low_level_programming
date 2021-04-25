@@ -1,11 +1,11 @@
 # 0x17. C - Doubly linked lists
 
-## Resources:books:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [What is a Doubly Linked List](https://intranet.hbtn.io/rltoken/d6DW7K0HrkIcVdzZxkidDw)
 
 ---
-## Learning Objectives:bulb:
+## Learning Objectives :man_technologist:
 What you should learn from this project:
 
 * What is a doubly linked list
@@ -31,7 +31,7 @@ What you should learn from this project:
 
 
 ### [4. Free list](./4-free_dlistint.c)
-* Write a function that free a dlistint_t list.
+* Write a function that frees a dlistint_t list.
 
 
 ### [5. Get node at index](./5-get_dnodeint.c)
@@ -63,5 +63,5 @@ What you should learn from this project:
 
 ---
 
-## Author
-* **Samuel Martinez** - [samuelsrmv](https://github.com/samuelsrmv)
+## Author :writing_hand:
+* **Samuel Martinez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
