@@ -1,6 +1,6 @@
 # 0x02. C - Functions, nested loops
 
-## Resources :books::bulb:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [Nested while loops](https://intranet.hbtn.io/rltoken/L0Vf5XJdD7ylLOyQnzVY6Q)
 * [C - Functions](https://intranet.hbtn.io/rltoken/pU9KLKlz0W2ZSSlzJsYA7w)
