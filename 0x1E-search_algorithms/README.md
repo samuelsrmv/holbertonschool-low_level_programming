@@ -86,4 +86,4 @@ This change does not come without consequences. Indeed, the space complexity of 
 ---
 
 ## Author :writing_hand:
-* **Samuel Martinez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
+* **Samuel Martínez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
