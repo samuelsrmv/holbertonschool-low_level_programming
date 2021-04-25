@@ -1,6 +1,6 @@
 # 0x1E. C - Search Algorithms
 
-## Resources :books::bulb:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [Search algorithm](https://intranet.hbtn.io/rltoken/ntNFhA9urmBxZfcn8gjsqw)
 * [Space complexity (1)](https://intranet.hbtn.io/rltoken/pPScxisIQ0eOPBPXkjcEmg)
@@ -85,5 +85,5 @@ This change does not come without consequences. Indeed, the space complexity of 
 
 ---
 
-## Author
+## Author :writing_hand:
 * **Samuel Martinez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
