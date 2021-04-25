@@ -1,13 +1,13 @@
 # 0x18. C - Dynamic libraries
 
-## Resources:books:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [What is difference between Dynamic and Static library (Static and Dynamic linking)](https://intranet.hbtn.io/rltoken/FrHmqtTW-frrOt0yf2blOw)
 * [create dynamic libraries on Linux](https://intranet.hbtn.io/rltoken/Zj0XtgNWUQyEYuABr47p8Q)
 * [Technical Writing](https://intranet.hbtn.io/rltoken/NnmQ5eohod3BpT3r0cFlRA)
 
 ---
-## Learning Objectives:bulb:
+## Learning Objectives :man_technologist:
 What you should learn from this project:
 
 * What is a dynamic library, how does it work, how to create one, and how to use it
@@ -35,5 +35,5 @@ What you should learn from this project:
 
 ---
 
-## Author
-* **Samuel Martinez** - [samuelsrmv](https://github.com/samuelsrmv)
+## Author :writing_hand:
+* **Samuel Martinez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
