@@ -1,35 +1,43 @@
-<!-- Headings -->
+# 0x14. C - Bit manipulation
 
-# The Simple Shell
+## Resources :books::bulb::rocket:
+Read or watch:
+* [Google](https://intranet.hbtn.io/rltoken/3N9o0-Gy3fxQoXJy6TUUHw)
+* [Youtube](https://intranet.hbtn.io/rltoken/7jk6HSHSs-DdXMEPKW1MoQ)
 
-## Synopsis
-This is a simple implementation of a UNIX command line interpreter.
+---
+## Learning Objectives :man_technologist:
+What you should learn from this project:
 
-## Description
+* Look for the right source of information without too much help
+* How to manipulate bits and use bitwise operators
 
-The Simple Shell interpret and execute command line arguments read from
-standard input. Read line by line from a file or the terminal line. Then it
-interprets the lines and executes them if the line is a valid command.
+---
 
-## Usage
-
-* Compilation:
-
-```
-  gcc -Wall -Werror -Wextra -pedantic *.c -o shell
-
-```
-To start the program, run:
-```./shell```
-
-To exit the program, run:
-```shell $ exit```
+### [0. 0](./0-binary_to_uint.c)
+* Write a function that converts a binary number to an unsigned int.
 
 
-<!-- Headings -->
-## Return Value
-Olaf shell will exit with status 0 unless status
+### [1. 1](./1-print_binary.c)
+* Write a function that prints the binary representation of a number.
 
-```
-holberton
-```
+
+### [2. 10](./2-get_bit.c)
+* Write a function that returns the value of a bit at a given index.
+
+
+### [3. 11](./3-set_bit.c)
+* Write a function that sets the value of a bit to 1 at a given index.
+
+
+### [4. 100](./4-clear_bit.c)
+* Write a function that sets the value of a bit to 0 at a given index.
+
+
+### [5. 101](./5-flip_bits.c)
+* Write a function that returns the number of bits you would need to flip to get from one number to another.
+
+---
+
+## Author :writing_hand:
+* **Samuel Martinez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
