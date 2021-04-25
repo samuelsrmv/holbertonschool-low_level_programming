@@ -1,11 +1,11 @@
 # 0x1C. C - Makefiles
 
-## Resources:books:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [Makefile](https://intranet.hbtn.io/rltoken/E3lCL-6xT3Qt_K38Tk4s_g)
 
 ---
-## Learning Objectives:bulb:
+## Learning Objectives :man_technologist:
 What you should learn from this project:
 
 * What are make, Makefiles
@@ -46,5 +46,5 @@ What you should learn from this project:
 
 ---
 
-## Author
-* **Samuel Martinez** - [samuelsrmv](https://github.com/samuelsrmv)
+## Author :writing_hand:
+* **Samuel Martinez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
