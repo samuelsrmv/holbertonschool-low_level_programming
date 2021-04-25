@@ -1,6 +1,6 @@
 # 0x00. C - Hello, World
 
-## Resources :books::bulb:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [Everything you need to know to start with C.pdf](https://intranet.hbtn.io/rltoken/d6TBbj0HA4EvnmpqvEz68Q)
 * [Dennis Ritchie](https://intranet.hbtn.io/rltoken/vY9KI1Ai38BUuydEfadtaA)
