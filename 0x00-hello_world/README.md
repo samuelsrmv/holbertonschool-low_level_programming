@@ -71,5 +71,5 @@ What you should learn from this project:
 
 ---
 
-## Author
+## Author :writing_hand:
 * **Samuel Martinez** - [samuelsrmv :octocat:](https://github.com/samuelsrmv)
