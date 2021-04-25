@@ -1,6 +1,6 @@
 # 0x01. C - Variables, if, else, while
 
-## Resources :books::bulb:
+## Resources :books::bulb::rocket:
 Read or watch:
 * [Everything you need to know to start with C.pdf](https://intranet.hbtn.io/rltoken/GB1UNodFfec0AXUfmSxsLA)
 * [Keywords and identifiers](https://intranet.hbtn.io/rltoken/ckqC9BrBcMmv-DLmBauaWQ)
